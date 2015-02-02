@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(169, 183, 198);
+}
+
+#app {
+    height: 100%;
+    overflow: visible;
+}
+
+#shop {
+    overflow: visible;
+}
+
+.inputDiv {
+    width: 40%;
+    height: 20%;
+    position: relative;
+    top: 40%;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.input {
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    height: 33%;
+    min-height: 30px;
+    font-size: 200%;
+    color: rgb(169, 183, 198);
+    background-color: rgb(43, 43, 43);
+    outline: 0;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(169, 183, 198);
+}
+
+.tip {
+    font-size: 100%;
+}
+
+.error{
+    color: red;
+    background-color: pink;
+    border-color: red;
+}
+
+.input[type=button]:hover {
+    color: rgb(43, 43, 43);
+    background-color: rgb(169, 183, 198);
+    border-color: rgb(43, 43, 43);
+}
+
+.background {
+    fill: rgb(43, 43, 43);
+}
+
+.queue {
+    fill: rgb(169, 183, 198);
+}
+
+.customer {
+    fill: rgb(43, 43, 43);
+}
+
+.goods {
+    fill: rgb(169, 183, 198);
+}
+
+.new {
+    /*fill: rgb(169, 183, 198);*/
+    fill: rgb(66, 95, 68);
+    font-weight: bold;
+    stroke-width: 2px;
+    /*stroke: rgb(43, 43, 43);*/
+    stroke: rgb(86,172,72);
+}
+
+.newText {
+    /*fill: rgb(43, 43, 43);*/
+    fill: rgb(105, 134, 85);
+    font-weight: bold;
+}
+
+.queue .performance {
+    fill: rgb(43, 43, 43);
+}
